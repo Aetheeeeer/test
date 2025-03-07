@@ -1,0 +1,480 @@
+body {
+  margin: 0;
+  background-color: #f9f7ee; /* Единый фон страницы */
+  font-family: sans-serif;
+  position: relative;
+}
+
+/* Контейнер, разделённый на две половины */
+.container {
+  display: flex;
+  height: 100vh;
+}
+/* Section, который ограничивает зону работы и является основой */
+.adidas {
+  background-color: #f0edc8;
+}
+
+/* Левая половина — просто фон */
+.left {
+  width: 50%;
+}
+
+/* Правая половина с фотографией */
+.right {
+  width: 50%;
+  position: relative;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Фото подстраивается под размеры блока */
+}
+
+/* Жёлтый блок, размещённый по центру фотографии */
+.overlay {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #c2a24f;
+  padding: 40px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Увеличенные размеры текста, чтобы он «залезал» на фото */
+.overlay h2 {
+  font-size: 4rem;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.overlay p {
+  font-size: 2rem;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+/* Стили для формы подписки */
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-container input[type="email"] {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 1.2rem;
+}
+
+.form-container button {
+  padding: 15px 25px;
+  background-color: #c12525;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Oswald", Arial, sans-serif;
+}
+
+.our,
+.you {
+  position: relative;
+  margin-bottom: 50px; /* Добавляем отступ снизу */
+}
+
+.our {
+  position: relative;
+  max-width: 300px;
+  text-align: left;
+  color: #c12525;
+  margin-left: 35%;
+  top: -200px;
+  left: -30px;
+}
+
+.our a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.you {
+  color: #c12525;
+  margin-top: 50px; /* Добавляем отступ сверху */
+  top: -200px;
+}
+
+.you a {
+  color: inherit;
+}
+
+.shop {
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  top: -240px;
+}
+
+.shop h2 {
+  font-size: 3rem;
+  color: #c12525;
+  margin-bottom: 20px;
+  font-size: 85px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between; /* Распределяет элементы по горизонтали */
+  gap: 20px; /* Расстояние между картинками */
+}
+
+.gallery-item {
+  text-align: center; /* Центрируем текст под картинкой */
+  flex: 1; /* Заставляем элементы занимать равное пространство */
+}
+
+.gallery-item img {
+  width: 100%; /* Картинки будут растягиваться по ширине своих контейнеров */
+  height: 500px; /* Поддерживаем пропорции картинок */
+  object-fit: cover;
+  border-radius: 8px; /* Округляем углы изображений */
+  margin-top: -200px;
+}
+
+.gallery-item p {
+  font-size: 1.2rem; /* Размер шрифта для описания */
+  color: #c12525; /* Цвет текста */
+}
+
+h3 {
+  color: rgb(241, 157, 136);
+  font-size: 40px;
+  margin: 0;
+}
+h4 {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  margin: 0;
+  font-size: 4rem;
+  color: rgb(241, 157, 136);
+  letter-spacing: 1, 5rem;
+  word-spacing: 4rem;
+  transform: translateX(-50%) scale(2);
+}
+
+.nike {
+  background-color: #3a1717;
+}
+
+h1 {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  margin: 0;
+  font-size: 15rem;
+  letter-spacing: 1, 5rem;
+  word-spacing: 4rem;
+  transform: translateX(-50%) scale(2);
+  color: #c12525;
+}
+
+#mainnav ul {
+  list-style: none;
+  margin: 0;
+}
+
+#mainnav li {
+  display: inline;
+  padding-left: 100px;
+}
+
+#mainnav a {
+  text-decoration: none;
+  color: #c12525;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+#mainnav a:hover {
+  text-decoration: underline;
+}
+
+.the {
+  background-image: url(../content/08.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.aku {
+  position: relative;
+  max-width: 400px;
+  text-align: left;
+  color: rgb(241, 157, 136);
+  margin-left: 35%;
+  top: -600px;
+  left: -1164px;
+}
+h5 {
+  top: 190px;
+  left: 119px;
+  color: rgb(7, 121, 252);
+}
+
+.lacosta {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.ass {
+  color: rgb(7, 121, 252);
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.photo {
+  width: 400px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(7, 121, 252);
+}
+
+.photo img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.puma {
+  background-color: #0f350d;
+  margin: 0;
+}
+.q2 {
+  color: #dddcda;
+  font-size: 2rem;
+  position: relative;
+  bottom: 0px;
+  margin-left: 20px;
+  margin: 0;
+}
+.q3 {
+  color: #dddcda;
+  position: relative;
+  bottom: 90px;
+  font-size: 3rem;
+  margin-left: 1000px;
+}
+.q4 {
+  color: #dddcda;
+  position: relative;
+  bottom: 140px;
+  font-size: 3rem;
+  margin-left: 1000px;
+  display: flex;
+  justify-content: end;
+}
+.q5 {
+  color: #dddcda;
+  position: relative;
+  bottom: 190px;
+  font-size: 3rem;
+  margin-left: 1000px;
+}
+.q6 {
+  color: #dddcda;
+  padding-bottom: 70px;
+  font-size: 5.5rem;
+  position: relative;
+  bottom: -350px;
+  margin-top: -200px;
+  margin-left: 40px;
+}
+.q7 {
+  color: #dddcda;
+  font-size: 5.5rem;
+  padding-bottom: 70px;
+  position: relative;
+  bottom: -130px;
+  margin-left: 30px;
+}
+.gucci {
+  background-color: #0d95e4;
+  margin: 0;
+  height: 1250px;
+}
+.l1 {
+  position: relative;
+  font-size: 6.5rem;
+  color: #ffe5bb;
+  margin-left: 100px;
+  bottom: 1150px;
+}
+.l2 {
+  position: relative;
+  font-size: 6.5rem;
+  color: #ffe5bb;
+  margin-left: 490px;
+  bottom: 1150px;
+}
+.l3 {
+  position: relative;
+  font-size: 6.5rem;
+  color: #ffe5bb;
+  margin-left: 100px;
+  bottom: 1200px;
+}
+.l4 {
+  position: relative;
+  font-size: 2.9rem;
+  color: white;
+  margin-left: 1040px;
+  bottom: 2100px;
+}
+.l5 {
+  position: relative;
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 1040px;
+  max-width: 1450px;
+  height: 20px;
+  bottom: 2100px;
+}
+.l6 {
+  position: relative;
+  font-size: 2rem;
+  list-style: none;
+  bottom: 1090px;
+  margin-left: 65rem;
+}
+.l6 a {
+  color: white;
+}
+
+.huita {
+  background-color: rgb(199, 41, 2);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.m1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.m1 img {
+  width: 170px;
+  height: 170px;
+}
+
+.tx1,
+.tx2 {
+  color: #ccc;
+  font-size: 1.6rem;
+  margin: 20px 0;
+}
+
+.tx-group {
+  margin-top: 230px;
+}
+
+.tx-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.tx-container p {
+  margin: 0;
+}
+
+.tx3,
+.tx4 {
+  font-size: 2rem;
+  color: #ccc;
+}
+
+.tx3 {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.tx4 {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.asd {
+  border: none;
+  border-top: 2px solid #ccc;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.tx4 {
+  font-size: 3rem;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+  margin-top: 30px;
+  padding-right: 0;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  color: #ccc;
+  font-size: 1.6rem;
+  margin: 5px 0;
+}
+
+.last {
+  margin-right: 10px;
+  color: #ccc;
+  font-size: 1.6rem;
+  margin-right: 60;
+}
+
+.lastt img {
+  height: 50px;
+  margin-left: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row-reverse;
+}
